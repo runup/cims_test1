@@ -1,0 +1,9 @@
+系统环境：
+ubuntu13.04  sqlite3 ruby3.2 rails3.2.13 jdk1.6
+系统部署:
+1/cd ~cims
+2/bundle install
+3/buddle exec rake db:migrate
+4/rake sunspot:solr:start
+5/rake sunspot:reindex
+6/rails 
